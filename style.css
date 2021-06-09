@@ -1,0 +1,144 @@
+.input{
+    position: absolute;
+    width: 333px;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.6vw 1.2vw;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navigation-bar::before{
+    content: "";
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#navigation-bar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#login-photo{
+    position: absolute;
+    right: 2%;
+}
+#logo{
+    margin: 10px black
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+#navigation-bar ul{
+    display: flex;
+}
+#navigation-bar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+.final{
+    padding: 10px;
+}
+.para{
+    color: black;
+    display: block;
+    padding: 12px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.finishing-touch ul{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navigation-bar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.first-box{
+    margin: 5px 5px;
+}
+.first-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.form-group{
+    padding: 3px;
+}
+.first-box input, 
+.first-box textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 9px;
+    font-size: 0.8rem;
+} 
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid rgb(255, 0, 0);
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+#services img{ 
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+:root{
+    --navbar-height: 59px;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid grey;
+    background-color: grey;
+    color: black;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
